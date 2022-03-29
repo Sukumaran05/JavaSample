@@ -19,6 +19,8 @@ public class GitSample {
 	private void greensAnnaNagar() {
 		System.out.println("Greens Tech-AnnaNagar");
 	}
+	
+	
 	public static void main(String[] args) {
 		GitSample loc = new GitSample();
 		loc.greensOmr();
@@ -26,6 +28,8 @@ public class GitSample {
 		loc.greensTambaram();
 		loc.greensVelacherry();
 		loc.greensAnnaNagar();	
+		
+		System.out.println("Greens branches");
 	}
 
 }
