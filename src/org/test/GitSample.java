@@ -19,6 +19,7 @@ public class GitSample {
 	private void greensAnnaNagar() {
 		System.out.println("Greens Tech-AnnaNagar");
 	}
+
 	private void greensPorur() {
 		System.out.println("Greens Tech-Porur");
 	}
@@ -31,8 +32,12 @@ public class GitSample {
 		loc.greensVelacherry();
 		loc.greensAnnaNagar();
 		loc.greensPorur();
-		
+		loc.greensAnnaNagar();	
+		System.out.println("Greens branches");
+	
 		System.out.println("adding new branch");
+		
+	
 	}
 
 }
